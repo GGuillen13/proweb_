@@ -1,5 +1,10 @@
 # proweb_Geovanne_Guillen
-<h1>Crear un repositorio en Github </h1> 
-<h2>Agregar como colaborador al prof Wilfred Vasquez </h2>
-<h2>Crear tres branch : main, staging, develop </h2>
-[Branch](https://github.com/GGuillen13/proweb_/assets/129232645/33d6b6d2-d1d6-421e-a234-11519cb0e276)
+<h2>Creamos 3 Branch: main, staging, develop</h2>
+Primero abrimos nuestra terminal de preferencia en mi caso VSCode , clonamos el repositorio creado en GitHub y accedemos a la carpeta creada con el nombre del repositorio.
+
+Luego posteriormente con el comando git branch visualizaremos la lista de branch disponibles, por predeterminado tendremos la branch "main" por default. Para crear branch adicionales usamos el comando git branch nombre_branch
+
+Estas ramas estaran creadas en local en nuestro dispositivo, pero no apareceran en el repositorio online por ahora.
+Para esto usamos el comando git switch seguido del nombre de la branch a la que deseamos acceder y luego al cambiar a dicha brand usamos el comando git push origin nombre_branch para que se sincronice con el repositorio online
+
+Esto seria todo para tener nuestras branch creadas y sincronizadas con el repositorio online. 
